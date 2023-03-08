@@ -10,3 +10,15 @@ export const decNumber = (num) => {
         payload: num
     }
 }
+export const multNumber = (num) => {
+    return {
+        type: "Multiplication",
+        payload: num
+    }
+}
+export const divNumber = (num) => {
+    return {
+        type: "Division",
+        payload: num
+    }
+}
