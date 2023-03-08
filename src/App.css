@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: grey;
 }
 
 .container {
@@ -22,6 +23,7 @@
   height: 35vh;
   background-color: rgb(191, 228, 243);
   border-radius: 5px;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .counter {
@@ -30,10 +32,11 @@
   flex-direction: row;
   justify-content: space-around;
   width: 175px;
-  height: 40px;
+  height: 45px;
   align-items: center;
   background-color: #f4ecec;
   border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .text {
@@ -41,6 +44,7 @@
   text-align: center;
   font-size: 20px;
   height: 30px;
+
 }
 
 .increment {
@@ -54,6 +58,7 @@
   font-size: 30px;
   border: none;
   cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .decrement {
@@ -67,4 +72,5 @@
   font-size: 30px;
   border: none;
   cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
