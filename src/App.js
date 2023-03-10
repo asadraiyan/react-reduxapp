@@ -21,7 +21,7 @@ function App() {
         <div className="counter">
           <button className='increment' onClick={() => dispatch(divNumber(5))}>/</button>
           <input type="text" className='text' value={myOtherState} />
-          <button className='decrement' onClick={() => dispatch(multNumber(10))}>x</button>
+          <button className='decrement' onClick={() => dispatch(multNumber(5))}>x</button>
         </div>
         <h2>Using React and Redux</h2>
 
